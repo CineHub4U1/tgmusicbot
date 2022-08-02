@@ -29,8 +29,8 @@ youtube-dl
 
 # ../../config.py
 MUSIC_CHATS = [
-    -1234567891012,
-    -2345678910123
+    -1001736756562,
+ 
 ]
 MUSIC_USERS = [1234567890]
 MUSIC_DELAY_DELETE_INFORM = 10
@@ -77,9 +77,9 @@ def get_music_chats():
 
 
 MUSIC_CHATS = get_music_chats()
-API_ID = os.environ["API_ID"]
-API_HASH = os.environ["API_HASH"]
-BOT_TOKEN = os.environ["BOT_TOKEN"]
+API_ID = " 7405235"
+API_HASH = "5c9541eefe8452186e9649e2effc1f3f"
+BOT_TOKEN = "5583920550:AAH72ulQMAdPu83fb0Q9DRNDrSz6zhe2fUY"
 app = Client(
     "tgmusicbot",
     api_id=API_ID,
